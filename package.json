@@ -1,0 +1,47 @@
+{
+  "name": "tf-image-detector",
+  "version": "1.1.0",
+  "description": "Tensorflow image detector",
+  "main": "index.jsx",
+  "scripts": {
+    "start": "webpack serve --mode=development",
+    "dev": "webpack --mode=development",
+    "dev:watch": "webpack --env entry --mode=development --watch"
+  },
+  "dependencies": {
+    "@babel/runtime": "7.16.7",
+    "@tensorflow-models/coco-ssd": "^2.2.2",
+    "@tensorflow/tfjs": "^3.13.0",
+    "@tensorflow/tfjs-converter": "3.13.0",
+    "@tensorflow/tfjs-core": "3.13.0",
+    "@tensorflow/tfjs-data": "3.13.0",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "react-webcam": "^6.0.1",
+    "seedrandom": "3.0.5"
+  },
+  "devDependencies": {
+    "@babel/core": "7.16.7",
+    "@babel/plugin-transform-runtime": "7.16.10",
+    "@babel/preset-env": "7.16.8",
+    "@babel/preset-react": "7.16.7",
+    "babel-jest": "27.4.6",
+    "babel-loader": "8.2.3",
+    "css-loader": "6.6.0",
+    "html-webpack-plugin": "5.5.0",
+    "jest": "27.4.7",
+    "mini-css-extract-plugin": "2.5.3",
+    "postcss": "8.4.5",
+    "postcss-loader": "6.2.1",
+    "postcss-preset-env": "7.3.0",
+    "postcss-scss": "4.0.3",
+    "sass": "1.49.0",
+    "sass-loader": "12.4.0",
+    "style-loader": "3.3.1",
+    "supertest": "6.2.2",
+    "webpack": "5.66.0",
+    "webpack-cli": "4.9.1",
+    "webpack-dev-server": "4.7.3"
+  },
+  "packageManager": "yarn@3.1.1"
+}

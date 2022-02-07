@@ -1,0 +1,32 @@
+# Project
+/node_modules
+/dist
+/coverage
+/analyzer
+npm-debug.log
+.env
+.eslintcache
+.yarnrc.yml
+# WebStorm
+*.iml
+/.idea
+
+# VSCode
+/.vscode
+
+# AWS SSH KEY
+*.ppk
+
+# OS X
+.DS_Store
+.scannerwork
+
+# yarn
+yarn-error.log
+.yarnrc.yml
+.yarn/*
+!.yarn/cache
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/versions
